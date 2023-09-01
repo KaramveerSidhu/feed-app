@@ -1,0 +1,93 @@
+@import "@baseScss";
+
+.container {
+  padding: 24px 20px;
+  background: $bg-secondary;
+  border-radius: 8px;
+  border: 2px solid #35373b;
+  width: 100%;
+  cursor: pointer;
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.createTitle {
+  color: $text-secondary;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.user {
+  display: flex;
+  gap: 16px;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-weight: 500;
+}
+
+.userName {
+  color: $text-secondary;
+  font-size: 16px;
+}
+
+.postTime {
+  color: $text-tertiary;
+  font-size: 14px;
+}
+
+.cardContent {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+  background: #191920;
+  margin: 22px 0px 14px 0px;
+  color: $text-tertiary;
+  border-radius: 8px;
+}
+
+.center {
+  align-items: center;
+}
+
+.emojiContainer {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: $bg-secondary;
+}
+
+.emoji {
+  width: 18px;
+  height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.comments {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.commentsCount {
+  font-size: 14px;
+  font-weight: 500;
+  color: $text-tertiary;
+}
+
+.postBtn {
+  width: 110px !important;
+  float: right;
+}
