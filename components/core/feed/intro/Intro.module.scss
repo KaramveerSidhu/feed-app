@@ -1,0 +1,18 @@
+@import "@baseScss";
+
+.container {
+  margin: 69px 0px 40px 0px;
+}
+
+.greeting {
+  color: $text-secondary;
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.message {
+  color: $text-tertiary;
+  font-size: 16px;
+  font-weight: 400;
+}
