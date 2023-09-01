@@ -1,0 +1,55 @@
+@import "@baseScss";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  position: relative;
+}
+
+.input {
+  width: 100%;
+  padding: 12px 44px 12px 12px;
+  font-size: 16px;
+  line-height: 19.36px;
+  border-radius: 4px;
+  font-family: inherit;
+  border: 1.5px solid #35373b;
+  color: $text-tertiary;
+  background: transparent;
+  outline: none;
+}
+
+.label {
+  font-weight: 500;
+  font-size: 14px;
+  color: $text-secondary;
+}
+
+.labelElement {
+  position: absolute;
+  right: 0;
+}
+
+.inputContainer {
+  position: relative;
+}
+
+.showPassword {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 12px;
+  cursor: pointer;
+}
+
+.strike {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  border-bottom: 2px solid $text-tertiary;
+  width: 20px;
+  transform: translateY(-50%) rotate(-45deg);
+  cursor: pointer;
+}
