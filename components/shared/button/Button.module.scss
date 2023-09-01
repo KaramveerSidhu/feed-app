@@ -1,0 +1,32 @@
+@import "@baseScss";
+
+$bg-btn-primary: #4a96ff;
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  width: 100%;
+  position: relative;
+}
+
+.primary {
+  background: $bg-btn-primary;
+  color: $text-primary;
+}
+
+.primary:hover {
+  background: lighten($bg-btn-primary, 2%);
+}
+
+.primary:focus,
+.primary:active {
+  border: 2px solid darken($bg-btn-primary, 10%);
+}
