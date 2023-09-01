@@ -1,0 +1,38 @@
+@import "@baseScss";
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  cursor: default;
+}
+
+.forgotPassword {
+  color: $text-secondary;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.login {
+  margin-top: 4px;
+}
+
+.followUpMessage {
+  font-size: 14px;
+  font-weight: 500;
+  color: $text-tertiary;
+  margin-top: -4px;
+  span {
+    color: $text-secondary;
+    cursor: pointer;
+  }
+}
+
+.cross {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  cursor: pointer;
+}
