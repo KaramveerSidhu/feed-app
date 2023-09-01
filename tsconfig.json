@@ -16,7 +16,10 @@
     "incremental": true,
     "paths": {
       "@/*": ["./*"],
-      "@styles/*": ["./styles/*"]
+      "@styles/*": ["./styles/*"],
+      "@components/*": ["./components/*"],
+      "@baseScss": ["./styles/_base.scss"],
+      "@constants/*": ["./constants/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
