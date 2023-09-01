@@ -10,8 +10,7 @@ type SignUpFormProps = {
 };
 
 const SignUpForm = (props: SignUpFormProps) => {
-  const { onClose = () => undefined, onFollowUpClick = () => undefined } =
-    props;
+  const { onClose, onFollowUpClick = () => undefined } = props;
 
   return (
     <Form title="SIGN UP" description="Create an account to continue">

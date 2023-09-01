@@ -10,8 +10,7 @@ type LoginFormProps = {
 };
 
 const LoginForm = (props: LoginFormProps) => {
-  const { onClose = () => undefined, onFollowUpClick = () => undefined } =
-    props;
+  const { onClose, onFollowUpClick = () => undefined } = props;
 
   return (
     <Form title="WELCOME BACK" description="Log into your account">
